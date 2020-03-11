@@ -1,0 +1,101 @@
+@font-face {
+    font-family: montserrat;
+    src: url(../Montserrat/Montserrat-Regular.ttf);
+}
+@font-face {
+	font-family: montserrat;
+	src: url(../Montserrat/Montserrat-Italic.ttf);
+	font-style: italic;
+}
+@font-face {
+    font-family: montserrat;
+    src: url(../Montserrat/Montserrat-Bold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: montserrat;
+    src: url(../Montserrat/Montserrat-BoldItalic.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
+/*SCROLLBAR*/
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #001824;
+}
+::-webkit-scrollbar-button {
+    background-color: #5E8F30;
+}
+::-webkit-scrollbar-track {
+    
+}
+::-webkit-scrollbar-track-piece {
+    
+}
+::-webkit-scrollbar-thumb {
+    background-color: #7fc241;
+}
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #00334c;
+	background: url("../Images/VorTX Background FHD Portrait.png") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+* {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  font-family: montserrat;
+}
+#wrapper {
+	text-align: center;
+}
+#homeButton {
+	width: 200px;
+	font-size: 25px;
+	color: white;
+	padding: 10px;
+	margin-top: 50px;
+	margin-left: 50px;
+	background-color: #7fc241;
+}
+div#wrapper div#homeButton a {
+	display: block;
+}
+#homeButton:hover {
+	background-color: #5E8F30;
+}
+#homeButton a:link {
+	color: white;
+	text-decoration: none;
+}
+#homeButton a:visited {
+	color: white;
+	text-decoration: none;
+}
+#homeButton a:hover {
+	color: white;
+	text-decoration: none;
+}
+#homeButton a:active {
+	color: white;
+	text-decoration: none;
+}
+h1 {
+	color: white;
+	font-size: 90px;
+	margin-top: 20px;
+	margin-bottom: 80px;
+}
+h3 {
+	color: white;
+	font-size: 30px;
+}
+#businessPlan {
+	width: 95%;
+	height: 1150px;
+}
